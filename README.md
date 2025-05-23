@@ -80,7 +80,7 @@ json{
 
 ## 🐳 Docker (Optional)
 
-- Build and run the Docker container:
+Build and run the Docker container:
     bashdocker build -t screening-assistant .
     docker run -p 8000:8000 --env-file .env screening-assistant
     The API will be accessible at http://localhost:8000.
